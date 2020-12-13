@@ -1,0 +1,93 @@
+BookID,Title,Author,Rate,Raters,Reviewers,Pages,PublishYear,GenreLink,SeriesLink
+1,Harry Potter and the Half-Blood Prince,J.K. Rowling,4.57,2469197,40043,652,2005,/work/shelves/41335427,Harry Potter
+2,Harry Potter and the Order of the Phoenix,"J.K. Rowling, Mary GrandPré",4.50,2541611,43067,870,2003,/work/shelves/2809203,Harry Potter
+3,Harry Potter and the Sorcerer's Stone,"J.K. Rowling, Mary GrandPré",4.47,7145889,113905,309,1997,/work/shelves/4640799,Harry Potter
+4,Harry Potter and the Chamber of Secrets,J.K. Rowling,4.43,2766218,53651,352,1998,/work/shelves/6231171,Harry Potter
+5,Harry Potter and the Prisoner of Azkaban,"J.K. Rowling, Mary GrandPré",4.57,2849671,56337,435,1999,/work/shelves/2402163,Harry Potter
+6,Harry Potter and the Goblet of Fire,"J.K. Rowling, Mary GrandPré",4.56,2629499,47225,734,2000,/work/shelves/3046572,Harry Potter
+7,The Harry Potter Collection,"J.K. Rowling, Mary GrandPré",4.73,31031,968,,2005,/work/shelves/21457570,Harry Potter
+8,"Harry Potter Boxed Set, Books 1-5 (Harry Potter, #1-5)","J.K. Rowling, Mary GrandPré",4.78,54432,182,2690,2003,/work/shelves/21457576,
+9,"Unauthorized Harry Potter Book Seven News: ""Half-Blood Prince"" Analysis and Speculation",W. Frederick Zimmerman,3.83,29,1,152,2005,,
+10,Harry Potter Collection,J.K. Rowling,4.73,31030,968,3342,2005,/work/shelves/21457570,Harry Potter
+11,The Hitchhiker's Guide to the Galaxy,Douglas Adams,4.22,1454502,30615,216,1979,/work/shelves/3078186,The Hitchhiker's Guide to the Galaxy
+12,The Ultimate Hitchhiker's Guide: Five Complete Novels and One Story,Douglas Adams,4.36,289646,5371,815,1996,/work/shelves/135328,The Hitchhiker's Guide to the Galaxy
+13,The Ultimate Hitchhiker's Guide to the Galaxy,Douglas Adams,4.36,289646,5371,815,1996,/work/shelves/135328,The Hitchhiker's Guide to the Galaxy
+14,The Hitchhiker's Guide to the Galaxy,Douglas Adams,4.22,1454508,30615,215,1979,/work/shelves/3078186,The Hitchhiker's Guide to the Galaxy
+15,The Hitchhiker's Guide to Lean: Lessons from the Road,"Jamie Flinchbaugh, Andy Carlino, Dennis Pawley",3.72,76,4,216,2005,/work/shelves/4409,
+16,The Hitchhiker's Guide to the Galaxy,"Douglas Adams, Stephen Fry",4.22,1454508,30615,6,1979,/work/shelves/3078186,The Hitchhiker's Guide to the Galaxy
+17,The Hitchhiker's Guide to the Galaxy: Quandary Phase,Douglas Adams,4.35,761,33,,2005,/work/shelves/69899216,Hitchhiker's Guide BBC Radio Series
+18,The Ultimate Hitchhiker's Guide,Douglas Adams,4.36,289646,5371,815,1996,/work/shelves/135328,The Hitchhiker's Guide to the Galaxy
+19,The Hitchhiker's Guide to the Galaxy: Quintessential Phase,Douglas Adams,4.37,731,29,,2005,/work/shelves/17243229,Hitchhiker's Guide BBC Radio Series
+21,A Short History of Nearly Everything,Bill Bryson,4.20,303729,12527,544,2003,/work/shelves/2305997,
+22,Bill Bryson's African Diary,Bill Bryson,3.45,8711,594,55,2002,/work/shelves/1998364,
+23,Bryson's Dictionary of Troublesome Words: A Writer's Guide to Getting It Right,Bill Bryson,3.88,2784,171,256,1984,/work/shelves/4360697,
+24,In a Sunburned Country,Bill Bryson,4.07,91552,5685,335,2000,/work/shelves/2611786,
+25,I'm a Stranger Here Myself: Notes on Returning to America After Twenty Years Away,Bill Bryson,3.90,59088,2898,304,1999,/work/shelves/3419048,
+26,The Lost Continent: Travels in Small Town America,Bill Bryson,3.83,52155,2759,299,1989,/work/shelves/1888943,
+27,Neither Here nor There: Travels in Europe,Bill Bryson,3.86,60214,2932,254,1991,/work/shelves/3164459,Bryson and Katz
+28,Notes from a Small Island,Bill Bryson,3.92,95256,4294,324,1995,/work/shelves/940892,Notes from a Small Island
+29,The Mother Tongue: English and How It Got That Way,Bill Bryson,3.92,36091,2730,270,1990,/work/shelves/2170063,
+30,J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings,J.R.R. Tolkien,4.60,111355,1808,1728,1955,/work/shelves/89369,The Lord of the Rings
+31,The Lord of the Rings,J.R.R. Tolkien,4.50,572853,11690,1184,1955,/work/shelves/3462456,The Lord of the Rings
+32,The Lord of the Rings,J.R.R. Tolkien,4.50,572853,11690,1137,1955,/work/shelves/3462456,The Lord of the Rings
+33,The Lord of the Rings,J.R.R. Tolkien,4.50,572844,11690,1216,1955,/work/shelves/3462456,The Lord of the Rings
+34,The Fellowship of the Ring,J.R.R. Tolkien,4.36,2375696,23160,398,1954,/work/shelves/3204327,The Lord of the Rings
+35,The Lord of the Rings,"J.R.R. Tolkien, Alan  Lee (artist)",4.50,572853,11690,1216,1955,/work/shelves/3462456,The Lord of the Rings
+36,The Lord of the Rings: Weapons and Warfare,"Chris   Smith, Christopher  Lee, Richard Taylor",4.57,29339,61,218,2003,/work/shelves/4414,
+37,The Lord of the Rings: Complete Visual Companion,Jude Fisher,4.51,384,6,224,2004,/work/shelves/4415,The Lord of the Rings: Visual Companion
+38,The Lord of the Rings Box Set,J.R.R. Tolkien,4.50,572853,11690,1223,1955,/work/shelves/3462456,The Lord of the Rings
+39,The Lord of the Rings,"Brian Sibley, J.R.R. Tolkien, Michael Bakewell",4.76,3905,54,,1999,/work/shelves/62400415,
+40,Cooking with Fernet Branca,James Hamilton-Paterson,3.60,1528,237,288,2004,/work/shelves/4417,Gerald Samper 
+45,Agile Web Development with Rails: A Pragmatic Guide,"Dave Thomas, David Heinemeier Hansson, Leon Breedt, Mike Clark, Thomas  Fuchs, Andreas  Schwarz",3.84,2103,109,558,2005,/work/shelves/1699340,
+46,Ruby Quickly: Ruby and Rails for the Real World,Mark   Watson,3.40,5,0,360,2006,,
+48,The Bucaneers,"Edith Wharton, Marion Mainwaring",3.89,5661,417,,1938,/work/shelves/1483593,
+49,Bucaneer,Luther Butler,3.83,6,1,208,2000,,
+50,Hatchet,Gary Paulsen,3.73,313429,14405,208,1987,/work/shelves/1158125,Brian's Saga
+51,"Hatchet: A Guide for Using ""Hatchet"" in the Classroom","Donna Ickes, Edward Sciranko, Keith Vasconcelles",3.95,37,2,48,1994,,
+52,El hacha,Gary Paulsen,3.73,313431,14405,144,1987,/work/shelves/1158125,Brian's Saga
+53,Guts: The True Stories behind Hatchet and the Brian Books,Gary Paulsen,3.89,2494,382,144,2001,/work/shelves/67763,Brian's Saga
+54,Molly Hatchet - 5 of the Best,Molly Hatchet,4.33,6,0,56,2003,,
+55,Hatchet Jobs: Writings on Contemporary Fiction,Dale Peck,3.47,126,25,228,2004,/work/shelves/4424,
+56,The Woodsman and His Hatchet: Eighty Years on Back Country Survival,Bud Cheff Sr.,3.60,10,0,150,1996,,
+57,A Changeling for All Seasons,"Angela Knight, Sahara Kelly, Judy Mays, Marteeka Karland, Kate Douglas, Shelby Morgen, Lacey Savage, Kate Hill",3.75,170,4,304,2005,/work/shelves/4426,Changeling Seasons
+58,Changeling,Delia Sherman,3.61,1060,122,256,2006,/work/shelves/4427,Changeling
+59,The Changeling Sea,Patricia A. McKillip,4.07,4958,378,137,1988,/work/shelves/2085180,
+60,Changelings,"Anne McCaffrey, Elizabeth Ann Scarborough",3.78,2342,86,288,2005,/work/shelves/4428,Twins of Petaybee
+61,The Changeling,Zilpha Keatley Snyder,4.17,1387,135,228,1970,/work/shelves/1738165,
+63,The Changeling,Kate Horsley,3.55,406,58,339,2003,/work/shelves/4431,
+65,Shadows in the Starlight,Elaine Cunningham,3.68,199,18,288,2006,/work/shelves/815436,Changeling Detective
+66,The Changeling,Philippa Carr,3.98,456,23,369,1989,/work/shelves/4434,Daughters of England
+67,The Known World,Edward P. Jones,3.82,36321,3269,388,2003,/work/shelves/1062798,
+68,The Known World,"Edward P. Jones, Kevin R. Free",3.82,36321,3269,14,2003,/work/shelves/1062798,
+69,The Known World,Edward P. Jones,3.82,36321,3269,576,2003,/work/shelves/1062798,
+70,I Wish I Had Known That!: World's Greatest Money & Time Saving Baby Secrets Revealed!,Nicole Rae Painter,4.25,4,0,310,2003,,
+71,"Traders, Guns & Money: Knowns and Unknowns in the Dazzling World of Derivatives",Satyajit Das,3.83,1682,98,334,2006,/work/shelves/4436,
+72,Artesia: Adventures in the Known World,Mark Smylie,4.15,54,4,352,2005,/work/shelves/4437,Artesia
+73,The Known World,Edward P. Jones,3.82,36321,3269,388,2003,/work/shelves/1062798,
+74,The John McPhee Reader,"John McPhee, William Howarth",4.43,641,44,416,1976,/work/shelves/4438,John McPhee Reader
+75,Uncommon Carriers,John McPhee,3.95,1943,228,248,2006,/work/shelves/4439,
+76,Heirs of General Practice,John McPhee,4.16,304,25,128,1986,/work/shelves/4440,
+77,The Control of Nature,John McPhee,4.25,3882,333,288,1989,/work/shelves/1391038,
+78,Annals of the Former World,John McPhee,4.35,3595,260,720,1998,/work/shelves/88676,Annals of the Former World
+79,Coming Into the Country,John McPhee,4.22,6235,307,448,1977,/work/shelves/518787,
+80,La Place de la Concorde Suisse,John McPhee,3.93,834,63,160,1983,/work/shelves/349509,
+81,Giving Good Weight,John McPhee,4.23,605,42,288,1972,/work/shelves/518811,
+82,The Second John McPhee Reader,"John McPhee, David Remnick, Patricia Strachan",4.38,210,19,393,1996,/work/shelves/4446,John McPhee Reader
+83,Rising from the Plains,John McPhee,4.23,1478,119,208,1986,/work/shelves/1391039,Annals of the Former World
+84,Heidi,"Loretta Krupinski, Johanna Spyri",4.50,18,3,32,1996,,
+85,The Heidi Chronicles,Wendy Wasserstein,3.74,1581,84,81,1988,/work/shelves/17506124,
+86,The Heidi Chronicles: Uncommon Women and Others & Isn't It Romantic,Wendy Wasserstein,3.84,2792,68,249,1988,/work/shelves/4450,
+87,Pandering,Heidi Fleiss,3.60,89,11,240,2003,/work/shelves/4451,
+88,Love Your Handwriting,"Heidi Swapp, Creating Keepsakes",3.58,88,8,96,2005,/work/shelves/4452,Creating Keepsakes
+89,"Active Literacy Across the Curriculum: Strategies for Reading, Writing, Speaking, and Listening",Heidi Hayes Jacobs,3.91,33,1,138,2006,/work/shelves/4453,
+90,Simply Beautiful Beaded Jewelry,Heidi Boyd,3.77,65,5,128,2006,/work/shelves/4454,
+91,Always Enough: God's Miraculous Provision Among the Poorest Children on Earth,"Heidi Baker, Rolland Baker",4.46,1033,69,192,2001,/work/shelves/4455,
+92,Mapping the Big Picture: Integrating Curriculum & Assessment K-12,Heidi Hayes Jacobs,3.65,78,2,108,1997,/work/shelves/4456,
+93,Heidi,"Johanna Spyri, Beverly Cleary, Angelo  Rinaldi",3.99,173916,3935,352,1880,/work/shelves/1738595,Heidi
+94,Getting Results with Curriculum Mapping,Heidi Hayes Jacobs,3.24,58,5,192,2004,/work/shelves/4458,
+95,Cinnamon and Roses,Heidi Betts,3.87,86,8,298,2000,/work/shelves/4459,Rose Trilogy
+96,There's Always Enough: The Miraculous Move of God in Mozambique,"Rolland Baker, Heidi Baker",4.46,1033,69,192,2001,/work/shelves/4455,
+97,The Birthdays,Heidi Pitlor,2.85,416,63,288,2006,/work/shelves/430590,
+98,What to Expect the First Year,"Heidi Murkoff, Sharon Mazel, Arlene Eisenberg, Sandee Hathaway, Mark D. Widome",3.89,16039,924,832,1989,/work/shelves/4462,What to Expect
+99,The Player's Handbook: The Ultimate Guide on Dating and Relationships,"Heidi Fleiss, Libby Keatinge",3.74,35,8,123,2004,/work/shelves/4463,
+100,Simply Beautiful Beading: 53 Quick and Easy Projects,Heidi Boyd,3.80,89,4,128,2004,/work/shelves/4464,
