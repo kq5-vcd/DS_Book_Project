@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+
+@author: DAO HONG QUAN - 20176850
+"""
 
 import scrapy
 from dateparser.search import search_dates
@@ -6,7 +11,7 @@ from dateparser.search import search_dates
 class Publish(scrapy.Spider):
     name = "books"
         
-    amount = list(range(11,101))
+    amount = list(range(201,301))
     start_urls = ["https://www.goodreads.com/book/show/{}".format(i) for i in amount]
 
     
@@ -14,7 +19,10 @@ class Publish(scrapy.Spider):
     def parse(self, response):
         
         bookID = response.request.url[36:]
-        bookID = bookID.split(".")[0]
+        if bookID.find(".") == -1:
+            bookID = bookID.split("-")[0]
+        else:
+            bookID = bookID.split(".")[0]
         
         title = response.xpath('//h1[@id="bookTitle"]/text()').get()
         title = title.strip()
