@@ -13,7 +13,7 @@ SPIDER_MODULES = ['goodreads.spiders']
 NEWSPIDER_MODULE = 'goodreads.spiders'
 
 FEED_EXPORTERS = {
-    'headless': 'fundrazr.exporters.HeadlessCsvItemExporter',
+    'headless': 'goodreads.exporters.HeadlessCsvItemExporter',
 }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
