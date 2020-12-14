@@ -1,0 +1,1 @@
+scrapy crawl books -o books_<tên>.csv -t headless
