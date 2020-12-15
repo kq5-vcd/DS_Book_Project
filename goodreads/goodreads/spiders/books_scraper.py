@@ -10,8 +10,10 @@ from dateparser.search import search_dates
 
 class Publish(scrapy.Spider):
     name = "books"
-        
-    amount = list(range(100001,105001))
+
+    start_id = 105001
+    end_id = 115001
+    amount = list(range(start_id,end_id))
     start_urls = ["https://www.goodreads.com/book/show/{}".format(i) for i in amount]
 
     
@@ -37,6 +39,9 @@ class Publish(scrapy.Spider):
             path = response.xpath('//div[@id="details"]/*')[1]
             details = path.xpath('text()').get()
         pub = search_dates(details)
+        if pub is None:
+            details = response.xpath('//div[@id="details"]/*')[1].xpath('text()').get()
+            pub = search_dates(details)
         year = pub[0][0]
         year = year[-4:]
         
@@ -50,6 +55,7 @@ class Publish(scrapy.Spider):
             series = series.split(' #')[0]
                 
         rate = response.xpath('//div[@id="bookMeta"]/span[@itemprop="ratingValue"]/text()').get()
+        rate = rate.strip()
         
         rater = response.xpath('//div[@id="bookMeta"]/*')[6].xpath('meta/@content').get()
         
@@ -65,7 +71,7 @@ class Publish(scrapy.Spider):
             'BookID' : bookID,
             'Title' : title,
             'Author' : authors,
-            'Rate' : rate.strip(),
+            'Rate' : rate,
             'Raters' : rater,
             'Reviewers' : review,
             'Pages' : page,
