@@ -5,14 +5,15 @@
 """
 
 import scrapy
+import pandas as pd
 from dateparser.search import search_dates
 
 
 class Publish(scrapy.Spider):
     name = "books_q"
-
-    start_id = 35001
-    end_id = 100001
+    
+    start_id = 360001
+    end_id = 400001
     amount = list(range(start_id,end_id))
     start_urls = ["https://www.goodreads.com/book/show/{}".format(i) for i in amount]
 
