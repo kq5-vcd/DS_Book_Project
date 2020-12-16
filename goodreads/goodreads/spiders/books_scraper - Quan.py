@@ -9,7 +9,7 @@ from dateparser.search import search_dates
 
 
 class Publish(scrapy.Spider):
-    name = "books"
+    name = "books_q"
 
     start_id = 35001
     end_id = 100001

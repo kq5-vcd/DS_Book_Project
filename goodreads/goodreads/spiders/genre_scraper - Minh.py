@@ -9,7 +9,7 @@ from itertools import cycle
 
 
 class Genre(scrapy.Spider):
-    name = "genre"
+    name = "genre_m"
     
     bookdb = pd.read_csv("books_m.csv")
     bookdb = bookdb[bookdb.GenreLink.notnull()]
