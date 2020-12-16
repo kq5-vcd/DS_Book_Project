@@ -11,8 +11,14 @@ from itertools import cycle
 class Genre(scrapy.Spider):
     name = "genre_m"
     
-    bookdb = pd.read_csv("books_m.csv")
+    bookdb = pd.read_csv("books_d.csv")
     bookdb = bookdb[bookdb.GenreLink.notnull()]
+
+    genredb = pd.read_csv("genre_m.csv")
+    if genredb is not None:
+        bID = genredb["BookID"]
+        bID = bID.drop_duplicates()
+        bookdb = bookdb[~bookdb.BookID.isin(bID)]
     
     bookID = cycle(bookdb["BookID"])
     nextID = next(bookID)
