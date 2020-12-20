@@ -28,14 +28,22 @@ class Genre(scrapy.Spider):
     
     def parse(self, response):
         genre = ""
+        num_people = 0
         for res in response.xpath('//div[@class="shelfStat"]'):
             genre = res.xpath('div/a/text()').get()
+            people = res.xpath('div[@class="smallText"]/a/text()').get()
+            num = people.split()
+            people = num[0]
+            if people.find(",") != -1:
+                people = people.replace(",","")
+            num_people = int(people)
             
             if genre is not None:
                 if self.hasNumber(genre) == False:
                     yield {
                         'BookID' : self.nextID,
-                        'Genre' : genre
+                        'Genre' : genre,
+                        'NumberOfPeople' : num_people
                         }
         self.nextID = next(self.bookID)
         
