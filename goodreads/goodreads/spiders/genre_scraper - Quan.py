@@ -5,7 +5,6 @@
 
 import scrapy
 import pandas as pd
-import re
 from itertools import cycle
 
 
@@ -13,25 +12,16 @@ class Genre(scrapy.Spider):
     name = "genre_q"
     
     bookdb = pd.read_csv("actual_data.csv")
-    bookdb = bookdb[bookdb.GenreLink.notnull()]
-
-    genredb = pd.read_csv("genre_q.csv")
-    if genredb is not None:
-        bID = genredb["BookID"]
-        bID = bID.drop_duplicates()
-        bookdb = bookdb[~bookdb.BookID.isin(bID)]
-    
-    bookID = cycle(bookdb["BookID"])
-    nextID = next(bookID)
     genreLink = bookdb["GenreLink"]
     
     start_urls = ["https://www.goodreads.com{}".format(link) for link in genreLink]
     
     def parse(self, response):
+        
         genre = ""
         num_people = 0
         for res in response.xpath('//div[@class="shelfStat"]'):
-            genre = res.xpath('div/a/text()').get()
+            genre = res.xpath('div[@style="float: left; width: 100px;"]/a/text()').get()
             people = res.xpath('div[@class="smallText"]/a/text()').get()
             num = people.split()
             people = num[0]
@@ -43,11 +33,11 @@ class Genre(scrapy.Spider):
             if genre is not None:
                 if self.hasNumber(genre) == False:
                     yield {
-                        'BookID' : self.nextID,
+                        'GenreLink' : response.request.url[25:],
                         'Genre' : genre,
                         'NumberOfPeople' : num_people
                         }
-        self.nextID = next(self.bookID)
+        
         
         
     def hasNumber(self,string):
