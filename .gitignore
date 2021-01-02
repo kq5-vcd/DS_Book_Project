@@ -2,3 +2,5 @@
 goodreads/genre.csv
 ml_data/clustering_data.csv
 data/complete_data.csv
+data/.ipynb_checkpoints/tags-checkpoint.csv
+data/tags.csv
