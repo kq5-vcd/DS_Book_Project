@@ -4,3 +4,5 @@ ml_data/clustering_data.csv
 data/complete_data.csv
 data/.ipynb_checkpoints/tags-checkpoint.csv
 data/tags.csv
+ml_data/.ipynb_checkpoints/clustering_data-checkpoint.csv
+data/.ipynb_checkpoints/complete_data-checkpoint.csv
