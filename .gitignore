@@ -6,3 +6,139 @@ data/.ipynb_checkpoints/tags-checkpoint.csv
 data/tags.csv
 ml_data/.ipynb_checkpoints/clustering_data-checkpoint.csv
 data/.ipynb_checkpoints/complete_data-checkpoint.csv
+[Group 1] Capstone project submission/Preprocessing.ipynb
+[Group 1] Capstone project submission/naive_bayes.ipynb
+[Group 1] Capstone project submission/ml_data/clustering_data.csv
+[Group 1] Capstone project submission/ml_data/classification_data.csv
+[Group 1] Capstone project submission/ml_data/book_data.csv
+[Group 1] Capstone project submission/ml_data/.ipynb_checkpoints/classification_data-checkpoint.csv
+[Group 1] Capstone project submission/knn.png
+[Group 1] Capstone project submission/knn.ipynb
+[Group 1] Capstone project submission/k-modes.png
+[Group 1] Capstone project submission/k-modes.ipynb
+[Group 1] Capstone project submission/goodreads/scrapy.cfg
+[Group 1] Capstone project submission/goodreads/readme.md
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/genre_scraper .py
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/books_scraper - Quan.py
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/books_scraper - Minh.py
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/books_scraper - Duy.py
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper1.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper .cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper - Quan.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper - Minh.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper - Duy.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/books_scraper.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/books_scraper - Quan.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/books_scraper - Minh.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/books_scraper - Duy.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/__init__.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__init__.py
+[Group 1] Capstone project submission/goodreads/goodreads/settings.py
+[Group 1] Capstone project submission/goodreads/goodreads/pipelines.py
+[Group 1] Capstone project submission/goodreads/goodreads/middlewares.py
+[Group 1] Capstone project submission/goodreads/goodreads/items.py
+[Group 1] Capstone project submission/goodreads/goodreads/exporters.py
+[Group 1] Capstone project submission/goodreads/goodreads/__pycache__/settings.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/__pycache__/exporters.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/__pycache__/__init__.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/__init__.py
+[Group 1] Capstone project submission/goodreads/genre.csv
+[Group 1] Capstone project submission/goodreads/books_q.csv
+[Group 1] Capstone project submission/goodreads/books_m.csv
+[Group 1] Capstone project submission/goodreads/books_d.csv
+[Group 1] Capstone project submission/Genre.ipynb
+[Group 1] Capstone project submission/dtree.ipynb
+[Group 1] Capstone project submission/Documents/readme.md
+[Group 1] Capstone project submission/Documents/Group 1 Presentation.pdf
+[Group 1] Capstone project submission/Documents/Group 1 Capstone Project Report.pdf
+[Group 1] Capstone project submission/Decision_tree.png
+[Group 1] Capstone project submission/data_preprocessing.ipynb
+[Group 1] Capstone project submission/data/tags.csv
+[Group 1] Capstone project submission/data/complete_data.csv
+[Group 1] Capstone project submission/data/book_data.csv
+[Group 1] Capstone project submission/Data Science Capstone Project.mp4
+[Group 1] Capstone project submission/Classification.ipynb
+[Group 1] Capstone project submission/Books.ipynb
+[Group 1] Capstone project submission/Book_classifier.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/Preprocessing-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/naive_bayes-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/knn-checkpoint.png
+[Group 1] Capstone project submission/.ipynb_checkpoints/knn-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/k-modes-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/Genre-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/dtree-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/data_preprocessing-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/Classification-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/Books-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/Book_classifier-checkpoint.ipynb
+[Group 1] Capstone project submission.zip
+.ipynb_checkpoints/knn-checkpoint.ipynb
+[Group 1] Capstone project submission/Preprocessing.ipynb
+[Group 1] Capstone project submission/naive_bayes.ipynb
+[Group 1] Capstone project submission/ml_data/clustering_data.csv
+[Group 1] Capstone project submission/ml_data/classification_data.csv
+[Group 1] Capstone project submission/ml_data/book_data.csv
+[Group 1] Capstone project submission/ml_data/.ipynb_checkpoints/classification_data-checkpoint.csv
+[Group 1] Capstone project submission/knn.png
+[Group 1] Capstone project submission/knn.ipynb
+[Group 1] Capstone project submission/k-modes.png
+[Group 1] Capstone project submission/k-modes.ipynb
+[Group 1] Capstone project submission/goodreads/scrapy.cfg
+[Group 1] Capstone project submission/goodreads/readme.md
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/genre_scraper .py
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/books_scraper - Quan.py
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/books_scraper - Minh.py
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/books_scraper - Duy.py
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper1.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper .cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper - Quan.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper - Minh.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/genre_scraper - Duy.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/books_scraper.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/books_scraper - Quan.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/books_scraper - Minh.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/books_scraper - Duy.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__pycache__/__init__.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/spiders/__init__.py
+[Group 1] Capstone project submission/goodreads/goodreads/settings.py
+[Group 1] Capstone project submission/goodreads/goodreads/pipelines.py
+[Group 1] Capstone project submission/goodreads/goodreads/middlewares.py
+[Group 1] Capstone project submission/goodreads/goodreads/items.py
+[Group 1] Capstone project submission/goodreads/goodreads/exporters.py
+[Group 1] Capstone project submission/goodreads/goodreads/__pycache__/settings.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/__pycache__/exporters.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/__pycache__/__init__.cpython-37.pyc
+[Group 1] Capstone project submission/goodreads/goodreads/__init__.py
+[Group 1] Capstone project submission/goodreads/genre.csv
+[Group 1] Capstone project submission/goodreads/books_q.csv
+[Group 1] Capstone project submission/goodreads/books_m.csv
+[Group 1] Capstone project submission/goodreads/books_d.csv
+[Group 1] Capstone project submission/Genre.ipynb
+[Group 1] Capstone project submission/dtree.ipynb
+[Group 1] Capstone project submission/Documents/readme.md
+[Group 1] Capstone project submission/Documents/Group 1 Presentation.pdf
+[Group 1] Capstone project submission/Documents/Group 1 Capstone Project Report.pdf
+[Group 1] Capstone project submission/Decision_tree.png
+[Group 1] Capstone project submission/data_preprocessing.ipynb
+[Group 1] Capstone project submission/data/tags.csv
+[Group 1] Capstone project submission/data/complete_data.csv
+[Group 1] Capstone project submission/data/book_data.csv
+[Group 1] Capstone project submission/Data Science Capstone Project.mp4
+[Group 1] Capstone project submission/Classification.ipynb
+[Group 1] Capstone project submission/Books.ipynb
+[Group 1] Capstone project submission/Book_classifier.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/Preprocessing-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/naive_bayes-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/knn-checkpoint.png
+[Group 1] Capstone project submission/.ipynb_checkpoints/knn-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/k-modes-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/Genre-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/dtree-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/data_preprocessing-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/Classification-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/Books-checkpoint.ipynb
+[Group 1] Capstone project submission/.ipynb_checkpoints/Book_classifier-checkpoint.ipynb
+[Group 1] Capstone project submission.zip
+.ipynb_checkpoints/knn-checkpoint.ipynb
