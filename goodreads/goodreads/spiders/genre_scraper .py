@@ -11,7 +11,7 @@ from itertools import cycle
 class Genre(scrapy.Spider):
     name = "genre"
     
-    bookdb = pd.read_csv("data_q.csv")
+    bookdb = pd.read_csv("actual_data.csv")
     genreLink = bookdb["GenreLink"]
     
     start_urls = ["https://www.goodreads.com{}".format(link) for link in genreLink]

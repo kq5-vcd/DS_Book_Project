@@ -1,0 +1,33 @@
+BookID,Title,Author,Rate,Raters,Reviewers,Pages,PublishDate,BookFormat,Language,GenreLink,Series
+400004,Negotiating Your Salary & Perks: Wetfeet Insider Guide,"Duncan Haberly, Robert A. Fish",3.33,3,2,160,"[('February 1st 2005', datetime.datetime(2005, 2, 1, 0, 0))]",Paperback,English,,
+400005,Book of Perks,James R. Baehler,0.00,0,0,229,"[('June 1st 1984', datetime.datetime(1984, 6, 1, 0, 0))]",Hardcover,English,,
+400007,Adobe Photoshop Master Class: John Paul Caponigro,John Paul Caponigro,4.14,29,1,504,"[('October 2nd 2000', datetime.datetime(2000, 10, 2, 0, 0))]",Paperback,English,/work/shelves/857182,
+400012,Inside John Haynie’s Studio: A Master Teacher’s Lessons on Trumpet and Life,"John Haynie, Anne F. Hardin",4.13,8,2,304,"[('January 15th 2007', datetime.datetime(2007, 1, 15, 0, 0))]",Hardcover,English,/work/shelves/389446,
+400011,The Deceivers,John Masters,3.98,255,19,320,"[('January 1st 1952', datetime.datetime(1952, 1, 1, 0, 0))]",Paperback,English,/work/shelves/389445,The Savage Family Chronicles
+400003,The Oral History Reader,"Robert Perks, Alistair Thomson",3.79,75,3,578,"[('November 27th 1997', datetime.datetime(1997, 11, 27, 0, 0))]",Hardcover,English,/work/shelves/389437,Routledge Readers in History
+400006,John Gill: Master of Rock,"Pat Ament, John       Gill",3.32,22,0,2,"[('1977', datetime.datetime(1977, 2, 20, 0, 0))]",Paperback,English,,
+400009,John Main: Essential Writings,"John Main, Laurence Freeman",4.13,24,1,188,"[('March 2002', datetime.datetime(2002, 3, 20, 0, 0))]",Paperback,English,,Modern Spiritual Masters
+400002,Bird by Bird: Some Instructions on Writing and Life,Anne Lamott,4.23,81693,7666,,"[('May 5th 1994', datetime.datetime(1994, 5, 5, 0, 0))]",Hardcover,English,/work/shelves/841198,
+400013,Into the Tunnel,"Irving Malin, Helen Ostovich",3.60,5,3,172,"[('January 1st 1998', datetime.datetime(1998, 1, 1, 0, 0))]",Hardcover,English,,
+400008,Adobe Master Class: Photoshop Compositing with John Lund,"John Lund, Pamela Pfiffner",3.33,6,0,320,"[('November 29th 2003', datetime.datetime(2003, 11, 29, 0, 0))]",Paperback,English,,
+400015,Empires On The Pacific,Robert Smith Thompson,3.67,27,4,472,"[('2002', datetime.datetime(2002, 2, 20, 0, 0))]",Paperback,English,/work/shelves/389449,
+400014,Going Home,Dave Sim,3.31,399,21,432,"[('December 31st 2000', datetime.datetime(2000, 12, 31, 0, 0))]",Paperback,English,/work/shelves/389448,Cerebus
+400010,Casanova,John Masters,3.28,58,10,302,"[('January 1st 1999', datetime.datetime(1999, 1, 1, 0, 0))]",,,/work/shelves/389444,
+400020,"Indian Trilogy: The Deceivers, Nightrunners of Bengal, The Lotus and the Wind",John Masters,4.40,15,0,952,"[('1978', datetime.datetime(1978, 2, 20, 0, 0))]",Hardcover,English,/work/shelves/389454,
+400017,Understanding Girls with ADHD,"Kathleen G. Nadeau, Patricia O. Quinn, Ellen B. Littman",4.17,292,32,293,"[('June 1st 1999', datetime.datetime(1999, 6, 1, 0, 0))]",Paperback,English,/work/shelves/389451,
+400019,Girls Will Be Girls: Raising Confident and Courageous Daughters,"JoAnn Deak, Teresa Barker",3.81,352,57,304,"[('2002', datetime.datetime(2002, 2, 20, 0, 0))]",Paperback,English,/work/shelves/389453,
+400016,Unforgettable,Cecily von Ziegesar,3.79,5279,82,288,"[('June 1st 2007', datetime.datetime(2007, 6, 1, 0, 0))]",Paperback,English,/work/shelves/389450,It Girl
+400018,Song of Napalm: Poems,"Bruce Weigl, Robert  Stone",4.23,155,17,70,"[('1988', datetime.datetime(1988, 2, 20, 0, 0))]",Paperback,English,/work/shelves/389452,
+400024,Troubled Times: Violence and Warfare in the Past,David W. Frayer,4.67,3,0,378,"[('January 23rd 1998', datetime.datetime(1998, 1, 23, 0, 0))]",Paperback,English,/work/shelves/20848826,
+400026,Axis of Peace: Christian Faith in Times of Violence and War,S. Wesley Ariarajah,5.00,1,0,137,"[('September 1st 2004', datetime.datetime(2004, 9, 1, 0, 0))]",Paperback,English,,
+400027,A Time for Violence,Noel M. Loomis,0.00,0,0,287,"[('2003', datetime.datetime(2003, 2, 20, 0, 0))]",Hardcover,English,,
+400028,Time for Violence,Anthea Goddard,3.00,1,0,0,"[('January 1st 1978', datetime.datetime(1978, 1, 1, 0, 0))]",Hardcover,English,,
+400022,Rick's Story,"Dave Sim, Gerhard",3.18,458,25,247,"[('March 1998', datetime.datetime(1998, 3, 20, 0, 0))]",Paperback,English,/work/shelves/389456,Cerebus
+400021,Form and Void,"Dave Sim, Gerhard",3.19,371,21,370,"[('June 30th 2001', datetime.datetime(2001, 6, 30, 0, 0))]",Paperback,English,/work/shelves/389455,Cerebus
+400029,In Times of Violence,Karina Kantas,3.92,38,22,112,"[('May 7th 2006', datetime.datetime(2006, 5, 7, 0, 0))]",Paperback,English,,OUTLAW
+400030,Partners for Democracy: Crafting the New Japanese State Under MacArthur,"Ray A. Moore, Donald L. Robinson",3.00,3,1,432,"[('October 3rd 2002', datetime.datetime(2002, 10, 3, 0, 0))]",Paperback,English,,
+400032,Long Green: The Rise and Fall of Tobacco in South Carolina,"Eldred E. Prince Jr., Robert R. Simpson",4.00,2,1,304,"[('January 1st 2000', datetime.datetime(2000, 1, 1, 0, 0))]",Hardcover,English,,
+400033,The Long Green Line,Russell M. Lea,0.00,0,0,455,"[('August 2003', datetime.datetime(2003, 8, 20, 0, 0))]",Paperback,,,
+400031,The Long Trail Guide: Hiking Vermont's High Ridge,Green Mountain Club,4.06,16,1,256,"[('June 1st 2003', datetime.datetime(2003, 6, 1, 0, 0))]",Paperback,English,/work/shelves/389465,
+400034,"A Sufi Saint of the Twentieth Century: Shaikh Ahmad Al-'Alawi, His Spiritual Heritage & Legacy",Martin Lings,4.27,186,12,242,"[('1971', datetime.datetime(1971, 2, 20, 0, 0))]",Paperback,English,/work/shelves/389468,
+400035,Sufi saint of the twentieth century: Shaik Ahmad al-ʻAlawī: his spiritual heritage and legacy.,Martin Lings,4.27,186,12,,,,,/work/shelves/389468,

@@ -42,8 +42,6 @@ class Publish(scrapy.Spider):
         if pub is None:
             details = response.xpath('//div[@id="details"]/*')[1].xpath('text()').get()
             pub = search_dates(details)
-        year = pub[0][0]
-        year = year[-4:]
         
         genre = response.css('div.rightContainer div.stacked div.h2Container a::attr(href)').get()
         
@@ -67,6 +65,11 @@ class Publish(scrapy.Spider):
                 if spage.isdigit():
                     page = spage
                     break
+
+        bookFormat = response.xpath('//div[@id="details"]/div/span[@itemprop="bookFormat"]/text()').get()
+
+        lang = response.xpath('//div[@id="bookDataBox"]/div[@class="clearFloats"]/div[@itemprop="inLanguage"]/text()').get()
+
         yield {
             'BookID' : bookID,
             'Title' : title,
@@ -75,7 +78,9 @@ class Publish(scrapy.Spider):
             'Raters' : rater,
             'Reviewers' : review,
             'Pages' : page,
-            'PublishYear' : year,
+            'PublishDate' : pub,
+            'BookFormat' : bookFormat,
+            'Language' : lang,
             'GenreLink' : genre,
             'Series' : series
             }
@@ -87,9 +92,10 @@ class Publish(scrapy.Spider):
         del details
         del genre
         del pub
-        del year
         del series
         del rate
         del rater
         del review
         del page
+        del bookFormat
+        del lang
