@@ -42,6 +42,7 @@ class Publish(scrapy.Spider):
         if pub is None:
             details = response.xpath('//div[@id="details"]/*')[1].xpath('text()').get()
             pub = search_dates(details)
+        pub = pub[0][0]
         
         genre = response.css('div.rightContainer div.stacked div.h2Container a::attr(href)').get()
         
