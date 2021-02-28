@@ -7,10 +7,10 @@ from dateparser.search import search_dates
 
 
 class Publish(scrapy.Spider):
-    name = "books_d"
+    name = "books"
 
-    start_id = 500001
-    end_id = 530001
+    start_id = 530001
+    end_id = 570001
     amount = list(range(start_id,end_id))
     start_urls = ["https://www.goodreads.com/book/show/{}".format(i) for i in amount]
 
