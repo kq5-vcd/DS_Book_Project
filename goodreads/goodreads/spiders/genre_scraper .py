@@ -2,23 +2,37 @@
 """
 @author: quan.dh176850
 """
-
+import os
 import scrapy
 import pandas as pd
 from itertools import cycle
 
+file_name = "500001-600000"
 
 class Genre(scrapy.Spider):
     name = "genre"
     
-    bookdb = pd.read_csv("books_300001-400000.csv")
+    bookdb = pd.read_csv("books_"+file_name+".csv")
     bookdb = bookdb[bookdb.GenreLink.notnull()]
     
-    genredb = pd.read_csv("genre_300001-400000.csv")
-    if genredb is not None:
-        link = genredb["GenreLink"]
-        link = link.drop_duplicates()
-        bookdb = bookdb[~bookdb.GenreLink.isin(link)]
+    try:
+        f = open("genre_"+file_name+".csv","r")
+        if os.stat("genre_"+file_name+".csv").st_size > 0:
+            genredb = pd.read_csv(file_name)
+            if genredb is not None:
+                link = genredb["GenreLink"]
+                link = link.drop_duplicates()
+                bookdb = bookdb[~bookdb.GenreLink.isin(link)]
+        else:
+            f.close()
+            f = open("genre_"+file_name+".csv","a")
+            f.write("GenreLink,Genre,NumberOfPeople\n")
+    
+    except IOError:
+        f = open("genre_"+file_name+".csv","w+")
+        f.write("GenreLink,Genre,NumberOfPeople\n")
+    finally:
+        f.close()
 
     genreLink = bookdb["GenreLink"]
     genreLink = genreLink.drop_duplicates()
