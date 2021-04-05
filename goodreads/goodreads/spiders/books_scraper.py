@@ -3,14 +3,15 @@
 """
 
 import scrapy
+import re
 from dateparser.search import search_dates
 
 
 class Publish(scrapy.Spider):
     name = "books"
 
-    start_id = 570001
-    end_id = 600001
+    start_id = 250001
+    end_id = 270001
     amount = list(range(start_id,end_id))
     start_urls = ["https://www.goodreads.com/book/show/{}".format(i) for i in amount]
 
@@ -69,12 +70,21 @@ class Publish(scrapy.Spider):
 
         lang = response.xpath('//div[@id="bookDataBox"]/div[@class="clearFloats"]/div[@itemprop="inLanguage"]/text()').get()
 
+        js = response.xpath('//script[contains(.,"renderRatingGraph")]/text()').extract_first()
+        m = re.search(r"[^[]*\[([^]]*)\]",js)
+        num = re.findall(r'-?\d+\.?\d*',m.group(1))
+
         yield {
             'BookID' : bookID,
             'Title' : title,
             'Author' : authors,
             'Rating' : rate,
             'Number of raters' : rater,
+            '5 stars' : num[0],
+            '4 stars' : num[1],
+            '3 stars' : num[2],
+            '2 stars' : num[3],
+            '1 star'  : num[4],
             'Number of reviewers' : review,
             'Pages' : page,
             'PublishDate' : pub,
@@ -98,3 +108,6 @@ class Publish(scrapy.Spider):
         del page
         del bookFormat
         del lang
+        del js
+        del num
+        del m
