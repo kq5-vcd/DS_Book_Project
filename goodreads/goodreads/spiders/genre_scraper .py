@@ -7,7 +7,7 @@ import scrapy
 import pandas as pd
 from itertools import cycle
 
-file_name = "500001-600000"
+file_name = "100001-200000"
 
 class Genre(scrapy.Spider):
     name = "genre"
@@ -16,20 +16,16 @@ class Genre(scrapy.Spider):
     bookdb = bookdb[bookdb.GenreLink.notnull()]
     
     try:
-        f = open("genre_"+file_name+".csv","r")
+        f = open("genre_"+file_name+".csv","a")
         if os.stat("genre_"+file_name+".csv").st_size > 0:
-            genredb = pd.read_csv(file_name)
+            genredb = pd.read_csv("genre_"+file_name+".csv")
             if genredb is not None:
                 link = genredb["GenreLink"]
                 link = link.drop_duplicates()
                 bookdb = bookdb[~bookdb.GenreLink.isin(link)]
-        else:
-            f.close()
-            f = open("genre_"+file_name+".csv","a")
-            f.write("GenreLink,Genre,NumberOfPeople\n")
     
     except IOError:
-        f = open("genre_"+file_name+".csv","w+")
+        f = open("genre_"+file_name+".csv","a")
         f.write("GenreLink,Genre,NumberOfPeople\n")
     finally:
         f.close()
@@ -54,12 +50,12 @@ class Genre(scrapy.Spider):
             
             
             if genre is not None:
-                if self.hasNumber(genre) == False:
-                    yield {
-                        'GenreLink' : response.request.url[25:],
-                        'Genre' : genre,
-                        'NumberOfPeople' : num_people
-                        }
+                #if self.hasNumber(genre) == False:
+                yield {
+                    'GenreLink' : response.request.url[25:],
+                    'Genre' : genre,
+                    'NumberOfPeople' : num_people
+                    }
         
         
         
