@@ -10,8 +10,8 @@ from dateparser.search import search_dates
 class Publish(scrapy.Spider):
     name = "books"
 
-    start_id = 360001
-    end_id = 400001
+    start_id = 480001
+    end_id = 480003
 
     amount = list(range(start_id,end_id))
     start_urls = ["https://www.goodreads.com/book/show/{}".format(i) for i in amount]
@@ -44,7 +44,7 @@ class Publish(scrapy.Spider):
             pub = search_dates(details)
         pub = pub[0][0]
         
-        genre = response.css('div.rightContainer div.stacked div.h2Container a::attr(href)').get()
+        genre = response.css('div.rightContainer div.stacked div.h2Container a::attr(href)').get().split('/')[-1]
         
         series = response.xpath('//h2[@id="bookSeries"]/a/text()').get()
         if series is not None:

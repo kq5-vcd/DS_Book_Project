@@ -33,7 +33,7 @@ class Genre(scrapy.Spider):
     genreLink = bookdb["GenreLink"]
     genreLink = genreLink.drop_duplicates()
     
-    start_urls = ["https://www.goodreads.com{}".format(link) for link in genreLink]
+    start_urls = ["https://www.goodreads.com/work/shelves/{}".format(link) for link in genreLink]
     
     def parse(self, response):
         
