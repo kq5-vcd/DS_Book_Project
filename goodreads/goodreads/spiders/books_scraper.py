@@ -13,27 +13,28 @@ class Publish(scrapy.Spider):
     start_id = 480001
     end_id = 480003
 
+
     amount = list(range(start_id,end_id))
     start_urls = ["https://www.goodreads.com/book/show/{}".format(i) for i in amount]
 
-    
+
 
     def parse(self, response):
-        
+
         bookID = response.request.url[36:]
         if bookID.find(".") == -1:
             bookID = bookID.split("-")[0]
         else:
             bookID = bookID.split(".")[0]
-        
+
         title = response.xpath('//h1[@id="bookTitle"]/text()').get()
         title = title.strip()
-        
+
         authors_list = []
         for author in response.xpath('//div[@id="bookAuthors"]/span[@itemprop="author"]/div[@class="authorName__container"]'):
             authors_list.append(author.xpath('a/span/text()').get())
         authors = ', '.join(authors_list)
-        
+
         details = response.xpath('//div[@id="details"]/div/nobr/text()').get()
         if details == None:
             path = response.xpath('//div[@id="details"]/*')[1]
@@ -45,21 +46,21 @@ class Publish(scrapy.Spider):
         pub = pub[0][0]
         
         genre = response.css('div.rightContainer div.stacked div.h2Container a::attr(href)').get().split('/')[-1]
-        
+
         series = response.xpath('//h2[@id="bookSeries"]/a/text()').get()
         if series is not None:
             series = series.strip()
             if series.startswith('(') and series.endswith(')'):
                 series = series[1:-1]
             series = series.split(' #')[0]
-                
+
         rate = response.xpath('//div[@id="bookMeta"]/span[@itemprop="ratingValue"]/text()').get()
         rate = rate.strip()
-        
+
         rater = response.xpath('//div[@id="bookMeta"]/*')[6].xpath('meta/@content').get()
-        
+
         review = response.xpath('//div[@id="bookMeta"]/*')[8].xpath('meta/@content').get()
-        
+
         page = response.xpath('//div[@id="details"]/div/span[@itemprop="numberOfPages"]/text()').get()
         if page is not None:
             for spage in page.split():
@@ -94,7 +95,7 @@ class Publish(scrapy.Spider):
             'GenreLink' : genre,
             'Series' : series
             }
-        
+
         del title
         del author
         del authors_list

@@ -11,10 +11,10 @@ file_name = "100001-200000"
 
 class Genre(scrapy.Spider):
     name = "genre"
-    
+
     bookdb = pd.read_csv("books_"+file_name+".csv")
     bookdb = bookdb[bookdb.GenreLink.notnull()]
-    
+
     try:
         f = open("genre_"+file_name+".csv","a")
         if os.stat("genre_"+file_name+".csv").st_size > 0:
@@ -23,7 +23,7 @@ class Genre(scrapy.Spider):
                 link = genredb["GenreLink"]
                 link = link.drop_duplicates()
                 bookdb = bookdb[~bookdb.GenreLink.isin(link)]
-    
+
     except IOError:
         f = open("genre_"+file_name+".csv","a")
         f.write("GenreLink,Genre,NumberOfPeople\n")
@@ -35,8 +35,9 @@ class Genre(scrapy.Spider):
     
     start_urls = ["https://www.goodreads.com/work/shelves/{}".format(link) for link in genreLink]
     
+
     def parse(self, response):
-        
+
         genre = ""
         num_people = 0
         for res in response.xpath('//div[@class="shelfStat"]'):
@@ -47,8 +48,8 @@ class Genre(scrapy.Spider):
             if people.find(",") != -1:
                 people = people.replace(",","")
             num_people = int(people)
-            
-            
+
+
             if genre is not None:
                 #if self.hasNumber(genre) == False:
                 yield {
@@ -56,10 +57,8 @@ class Genre(scrapy.Spider):
                     'Genre' : genre,
                     'NumberOfPeople' : num_people
                     }
-        
-        
-        
+
+
+
     def hasNumber(self,string):
         return any(char.isdigit() for char in string)
-    
-        
