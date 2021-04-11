@@ -44,7 +44,7 @@ class Publish(scrapy.Spider):
             details = response.xpath('//div[@id="details"]/*')[1].xpath('text()').get()
             pub = search_dates(details)
         pub = pub[0][0]
-        
+
         genre = response.css('div.rightContainer div.stacked div.h2Container a::attr(href)').get().split('/')[-1]
 
         series = response.xpath('//h2[@id="bookSeries"]/a/text()').get()
