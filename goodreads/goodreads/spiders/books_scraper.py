@@ -14,6 +14,7 @@ class Publish(scrapy.Spider):
     end_id = 600001
 
 
+
     amount = list(range(start_id,end_id))
     start_urls = ["https://www.goodreads.com/book/show/{}".format(i) for i in amount]
 
