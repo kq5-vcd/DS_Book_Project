@@ -10,7 +10,7 @@ from dateparser.search import search_dates
 class Publish(scrapy.Spider):
     name = "books"
 
-    start_id = 1200000
+    start_id = 1211722
     end_id = 1300000
 
     amount = list(range(start_id,end_id))
