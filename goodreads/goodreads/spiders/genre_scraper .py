@@ -7,7 +7,7 @@ import scrapy
 import pandas as pd
 from itertools import cycle
 
-file_name = "1"
+file_name = "2"
 
 class Genre(scrapy.Spider):
     name = "genre"
@@ -53,7 +53,7 @@ class Genre(scrapy.Spider):
             if genre is not None:
                 #if self.hasNumber(genre) == False:
                 yield {
-                    'GenreLink' : response.request.url[25:],
+                    'GenreLink' : response.request.url.split("/")[-1],
                     'Genre' : genre,
                     'NumberOfPeople' : num_people
                     }
