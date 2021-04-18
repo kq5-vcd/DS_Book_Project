@@ -7,7 +7,7 @@ import scrapy
 import pandas as pd
 from itertools import cycle
 
-file_name = "12"
+file_name = "6"
 
 class Genre(scrapy.Spider):
     name = "genre"
