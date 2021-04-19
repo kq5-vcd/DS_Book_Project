@@ -10,8 +10,8 @@ from dateparser.search import search_dates
 class Publish(scrapy.Spider):
     name = "books"
 
-    start_id = 930001
-    end_id = 1000001
+    start_id = 12000001
+    end_id = 12030001
 
 
 
